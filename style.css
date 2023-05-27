@@ -8,10 +8,12 @@
 
   display: flex;
   flex-direction: column;
-  background-image: url('Img/jungle.svg');
+  background-image: url(Img/greenFrame.jpg);
   background-size: cover;
   background-position: center;
+
 }
+
 
 
 header {
@@ -31,36 +33,37 @@ a {
   text-decoration: none;
   margin-inline-start: 40px;
   background-color: rgb(107, 135, 135);
- padding: 10px;
-  background-color:rgb(188, 148, 148);
-  border-radius: 50%;
+  padding: 10px;
+  background-color: rgb(188, 148, 148);
+  border-radius: 20px;
+
 }
 
 h1 {
   display: flex;
   justify-content: center;
-  font-size: 2em;
+  font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(21, 16, 10);
-}
-
-p {
-  margin-left: 20px;
-  text-align: justify;
 }
 
 .info_project {
   display: flex;
   align-items: center;
-  max-width: 40rem;
+  max-width: 25rem;
   margin: 70px auto 50px;
+  border-radius: 20px;
 }
 
 .foto_project {
   display: flex;
   margin-left: 100px;
-  margin-right: 50px;
+  margin-right: 100px;
   margin-bottom: 100px;
+  gap: 70px;
+  justify-content: center;
+
+
 }
 
 img {
@@ -71,16 +74,24 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 50%;
+  width: 400px;
+  height: 400px;
   margin: 0 20px 0 0;
+  gap: 30px;
+
 }
+
 
 .foto_right {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 50%;
+  width: 330px;
+  height: 330px;
+  gap: 48px;
 }
+
+
 
 footer {
   position: fixed;
@@ -95,7 +106,7 @@ footer {
 
 footer a {
   font-weight: bolder;
-  color: green;
+  color: rgb(136, 153, 136);
   margin: 5px;
 }
 

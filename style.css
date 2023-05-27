@@ -94,22 +94,7 @@ img {
 
 
 
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 10px 0;
-  background-color: white;
-  padding: 0 0 0 20px;
 
-}
-
-footer a {
-  font-weight: bolder;
-  color: rgb(136, 153, 136);
-  margin: 5px;
-}
 
 
 /*informace o nas*/

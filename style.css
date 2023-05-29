@@ -23,18 +23,18 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  padding: 10px 0;
-
+  padding: 4px 0;
+  background-color: rgb(30, 29, 29);
 }
 
 
 a {
-  color: black;
+  color: rgb(249, 244, 244);
   text-decoration: none;
   margin-inline-start: 50px;
-  background-color: rgb(215, 223, 66);
+  font-size: 20px;
   padding: 10px;
-  background-color: (188, 148, 148);
+
   border-radius: 20px;
   font-family: 'Courier New', Courier, monospace color;
   font-size: 15px;
